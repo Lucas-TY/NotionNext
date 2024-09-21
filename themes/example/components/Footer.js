@@ -16,7 +16,7 @@ export const Footer = (props) => {
                 {/* 右侧链接 */}
                 {/* <a href="#" className="text-black no-underline hover:underline">Privacy Policy</a> */}
                 {siteConfig('BEI_AN') && (<a href="https://beian.miit.gov.cn/" className="text-black dark:text-gray-200 no-underline hover:underline ml-4">{siteConfig('BEI_AN')} </a>)}
-                <span className='dark:text-gray-200 no-underline ml-4'>
+                <span className='dark:text-gray-200 no-underline ml-4 hidden'>
                     Powered by
                     <a href="https://github.com/tangly1024/NotionNext" className=' hover:underline'> NotionNext {siteConfig('VERSION')}  </a>
                 </span>
